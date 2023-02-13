@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px;
+}
+
+.content {
+    max-width: 1080px;
+    margin: auto;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.col {
+    float: left;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-33 {
+    width: 33.34%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-66 {
+    width: 66.67%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+hr {
+    margin: 50px 0;
+    border: solid 3px #f33;
+    width: 150px;
+    border-radius: 20px;
+
+}
+
+/*------- MENU -------*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+  }     
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #71818c;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 14px;
+    font-family: Poppins, helvetica, arial, lucida, sans-serif;
+    font-weight: 600;
+  
+  }
+  
+  .topnav .menuTitle {
+    float: left;
+    display: block;
+    color: #20292f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 23px;
+    font-family: Poppins, helvetica, arial, lucida, sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  .topnav a:hover:not(.menuTitle) {
+    background-color: #71818c40;
+    color: #20292f;
+    transition: 0.7s;
+  }
+
+  .topnav .items {
+    float: right;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+/*------- INDEX -------*/
+
+#index {
+    font-family: roboto, helvetica, arial, lucida, sans-serif;
+    font-weight: 500;
+    color: #666;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#index h1 {
+    margin: 0px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104px;
+    font-style: normal;
+}
+
+#index h2 {
+    margin: 0px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    font-style: normal;
+    color: #333;
+}
+
+/*------- INDEX SECTION 1 -------*/
+
+#index .section1 {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #1a1a1a;
+}
+#index .section1 .bg {
+    background-image: url(images/bgimgindex1.jpg);
+    background-position: top;
+}
+
+#index .section1 .filter {
+    background-color: #000000b2;
+    padding: 100px 0px 100px;
+}
+
+#index .section1 .content {
+    padding: 50px;
+}
+
+#index .section1 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+
+    border: solid;
+    padding: 10px;
+    color: #fff;
+}
+
+#index .section1 a:hover {
+    background-color: white;
+    color: #333;
+    font-size: 23px;
+    transition: 0.7s;
+  }
+
+/*------- INDEX SECTION 2 -------*/
+
+#index .section2 .col {
+    min-height: 650px;
+}
+
+#index .section2 .bg:nth-child(1) {
+    background-image: url(images/imgindex1.jpg);
+    background-position: center;
+}
+#index .section2 .bg:nth-child(2) {
+    background-image: url(images/imgindex2.jpg);
+    background-position: center;
+}
+#index .section2 .bg:nth-child(3) {
+    background-image: url(images/imgindex3.jpg);
+    background-position: center;
+}
+#index .section2 .bg:nth-child(4) {
+    background-image: url(images/imgindex4.jpg);
+    background-position: center;
+}
+
+/*------- INDEX SECTION 3 -------*/
+
+#index .section3 .row {
+    padding: 80px 0px;
+}
+
+#index .section3 .pad {
+    padding-right: 40px;
+}
+
+#index .section3 .largerFont {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#index .section3 img {
+    width: 100%;
+}
+
+/*------- INDEX SECTION 4 -------*/
+
+#index .section4 {
+    text-align: center;
+    background-image: url(images/bgimgindex2.jpg);
+    background-position: center;
+}
+
+#index .section4 .filter {
+    padding: 80px 0px 700px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 0, 0));
+}
+
+#index .section4 h2 {
+    margin: 50px;
+}
+
+#index .section4 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+
+    border: solid #f33;
+    background-color: #f33;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+#index .section4 a:hover {
+    background-color: white;
+    color: #f33;
+    border-color: #f33;
+    font-size: 23px;
+    transition: 0.7s;
+  }
+
+/*------- PACKAGES -------*/
+
+#packages {
+    font-family: roboto, helvetica, arial, lucida, sans-serif;
+    font-weight: 500;
+    color: #666;
+    line-height: 29px;
+    font-size: 16px;
+}
+
+#packages h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    font-style: normal;
+    color: #333;
+}
+
+#packages h2 {
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+#packages h3 {
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+#packages hr {
+    margin: 50px auto;
+}
+
+/*------- PACKAGES SECTION 1 -------*/
+
+#packages .section1 {
+    padding-bottom: 100px;
+}
+
+/*------- PACKAGES SECTION 2 -------*/
+
+#packages .section2 h3 {
+    margin-top: 0px;
+}
+
+#packages .section2 .col-50 {
+    padding: 20px;
+}
+
+#packages .section2 .largerFont {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a1a1a;
+}
+
+#packages .section2 .img {
+    min-height: 300px;
+}
+#packages .section2 img {
+width: 100%;
+}
+
+#packages .section2 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+
+    border: solid;
+    padding: 10px 30px;
+    color: #1a1a1a;
+}
+
+#packages .section2 a:hover {
+    background-color: #1a1a1a;
+    font-size: 23px;
+    color: white;
+    transition: 0.7s;
+  }
+
+/*------- PACKAGES SECTION 3 -------*/
+
+#packages .section3 {
+    background-image: url(images/bgimgpackages.jpg);
+    background-position: center;
+    margin: 80px 0;
+}
+
+#packages .section3 .filter {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0));
+}
+
+#packages .section3 .content {
+    text-align: center;
+    color: white;
+    padding: 100px 100px;
+}
+
+#packages .section3 p {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#packages .section3 hr {
+    border-color: #fff;
+}
+
+#packages .section3 .largerFont {
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#packages .section3 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Oswald, helvetica, arial, lucida, sans-serif;
+
+    border: solid;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+#packages .section3 a:hover {
+    background-color: white;
+    font-size: 23px;
+    color: #1a1a1a;
+    transition: 0.7s;
+  }
+
+/*------- PACKAGES SECTION 4 -------*/
+
+#packages .section4 {
+    padding-bottom: 80px;
+}
+
+#packages .section4 h2 {
+    color: #1a1a1a;
+}
+#packages .section4 hr {
+    margin: 50px 0;
+}
+#packages .section4 h3 {
+    font-family: roboto, helvetica, arial, lucida, sans-serif;
+    font-weight: 700;
+}
+
+#packages .section4 ul {
+    list-style: none;
+}
+
+#packages .section4 ul li {
+    margin-left: -40px;
+}
+
+#packages .section4 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: roboto, helvetica, arial, lucida, sans-serif;
+    border: none;
+    padding: 10px 0;
+    color: #4cb1ff;
+}
+
+#packages .section4 a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    transition: 0.7s;
+    font-size: 18px;
+  }
+
+/*------- MEDIA MENU -------*/
+
+@media screen and (max-width: 970px) {
+    .topnav {
+        position: inherit;
+    }
+    .topnav a:not(.menuTitle) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav .items {
+        float: none;
+    }
+  }
+  
+  @media screen and (max-width: 970px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+/*------- MEDIA INDEX SECION 1 -------*/
+
+@media screen and (max-width: 600px) {
+    #index .section1 {
+        text-align: center;
+    }
+
+    #index .section1 .col-66 {
+        width: 100%;
+    }
+
+    #index .section1 p {
+        text-align: justify;
+        padding-bottom: 40px;
+    }
+}
+
+/*------- MEDIA INDEX SECION 2 -------*/
+
+@media screen and (max-width: 600px) {
+    #index .section2 .col-25 {
+        width: 100%;
+    }
+
+    #index .section2 .col {
+        min-height: 250px;
+    }
+}
+
+/*------- MEDIA INDEX SECION 3 -------*/
+
+@media screen and (max-width: 600px) {
+    #index .section3 .col-50 {
+        width: 100%;
+    }
+
+    #index .section3 {
+        text-align: justify;
+    }
+
+    #index .section3 .pad {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #index .section4 .filter {
+        padding: 0px 0px 400px;
+    }
+    #index .section4 {
+        background-position: bottom;
+    }
+}
+/*------- MEDIA PACKAGES SECTION 2 -------*/
+
+@media screen and (max-width: 600px) {
+    #packages .section2 .col-50 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #packages .section2 .col-100 {
+        width: 50%;
+    }
+
+    #packages .section2 .col-100:nth-child(3) {
+        float: right;
+        text-align: right;
+    }
+
+    #packages .section2 .link {
+        text-align: center;
+        padding: 50px;
+    }
+    #packages .section2 a {
+        padding: 10px 100px;
+    }
+
+}
+
+/*------- MEDIA PACKAGES SECTION 3 -------*/
+
+@media screen and (max-width: 600px) {
+    #packages .section3 .content {
+        padding: 100px 20px;
+    }
+}
+
+/*------- MEDIA PACKAGES SECTION 4 -------*/
+
+@media screen and (max-width: 600px) {
+
+    #packages .section4 .content {
+        padding: 0 20px;
+    }
+
+    #packages .section4 .col-25 {
+        width: 50%;
+        min-height: 270px;
+    }
+}
